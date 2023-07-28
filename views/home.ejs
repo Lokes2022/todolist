@@ -1,0 +1,12 @@
+<%- include("header") -%>
+<div class="box" style="margin: 70px auto; ">
+    <form class="ite" action="/" method="post">
+        <p>Name a thing which you want to <strong><br> Stick notes</strong> </p>
+            <input required type="text" name="name" placeholder="Notes" class="hometext" style="width: 200px;">
+            <input type="text" name="username" placeholder="username" class="hometext" style="width: 200px;">
+            <input required type="text" name="passkey" placeholder="passkey" class="hometext" style="width: 200px;">
+          <button class="btn" type="submit" style="background-color: #1b00a0;color: rgb(255, 255, 255);margin-bottom: 5px; margin-left: 100px;">Continue</button>
+    <p><%= oops %></p>
+        </form>
+</div>
+<%- include("footer") -%>
